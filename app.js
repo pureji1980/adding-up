@@ -11,5 +11,6 @@ rl.on('line',(lineString) =>{
   const popu = parseInt(columns[7]);
   if (year == 2010 || year == 2015){
     console.log(year,pref,popu);
+  }
 });
 rl.resume();
